@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Blanquotey', sans-serif;
+  @apply bg-background text-white leading-loose;
+}
+@font-face {
+  font-family: 'Blanquotey';
+  src: url('/fonts/Blanquotey.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
