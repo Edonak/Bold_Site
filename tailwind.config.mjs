@@ -25,7 +25,7 @@ export default {
   			background: '#8F1D07',
   			foreground: 'var(--foreground)',
 			accent:{
-				DEFAULT:"#997D0E",
+				DEFAULT:"#8F1D07",
 				hover:"#8F1D07"
 			}
   		},
