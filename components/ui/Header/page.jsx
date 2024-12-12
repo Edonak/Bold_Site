@@ -10,11 +10,11 @@ export default function Header() {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
           <Image
-            src="/images/logo.png" // Chemin de l'image relative au dossier `public`
+            src="/images/logo.png" 
             alt="Logo"
-            width={100} // Largeur en pixels
-            height={100} // Hauteur en pixels
-            priority // Optionnel : pour charger l'image en priorité
+            width={100} 
+            height={100} 
+            priority 
           />
         </Link>
         {/**Desktop nav */}
