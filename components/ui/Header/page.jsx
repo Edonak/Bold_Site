@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Nav from "./Nav";
 import { Button } from "../button";
+import MobileNav from "./MobileNav";
 
 export default function Header() {
   return (
@@ -25,7 +26,7 @@ export default function Header() {
         </div>
         {/**Mobile nav */}
         <div className="xl:hidden">
-          mobile Nav
+          <MobileNav />
         </div>
       </div>
     </header>
