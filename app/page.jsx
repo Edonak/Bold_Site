@@ -1,10 +1,15 @@
-import { Section } from "lucide-react";
+import AboutComponent from "@/components/aboutComponent";
+import ActionsSection from "@/components/ActionSection";
+import HeroSection from "@/components/Herosection";
+
 
 export default function Home() {
   return (
     <main>
       <section className="bg-white w-full h-[92vh] text-black">
-        <p>HELLO</p>
+        <HeroSection />
+        <AboutComponent />
+        <ActionsSection />
       </section>
       
     </main>

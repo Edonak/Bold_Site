@@ -9,7 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-white text-black font-semibold py-2 px-4 border-2 border-accent rounded-lg hover:bg-accent hover:text-white transition duration-300",
+        default: "bg-transparent text-black font-semibold py-2 px-4 border-2 border-accent rounded-lg hover:bg-accent hover:text-white transition duration-300",
        
       },
       size: {
