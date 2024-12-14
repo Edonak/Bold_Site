@@ -1,6 +1,8 @@
 import AboutComponent from "@/components/aboutComponent";
 import ActionsSection from "@/components/ActionSection";
+import FormulaireContact from "@/components/FormulaireContact";
 import HeroSection from "@/components/Herosection";
+import Partenaires from "@/components/Partenaires";
 import Testmonial from "@/components/Testmonials";
 
 
@@ -12,6 +14,8 @@ export default function Home() {
         <AboutComponent />
         <ActionsSection />
         <Testmonial />
+        <Partenaires />
+        <FormulaireContact />
       </section>
       
     </main>
