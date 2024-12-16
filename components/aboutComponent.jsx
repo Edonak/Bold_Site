@@ -2,12 +2,12 @@
 
 export default function AboutComponent() {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-white px-6 md:px-12">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-white md:px-12">
         {/* Section principale */}
         <div className="flex flex-col md:flex-row items-center gap-8 max-w-5xl">
           {/* Images rondes */}
-          <div className="relative">
-            <div className="w-64 h-64 md:w-72 md:h-72 rounded-full overflow-hidden">
+          <div className="relative w-[100%]">
+            <div className="w-96 h-64 md:w-72 md:h-72 rounded-full overflow-hidden">
               <img
                 src="/images/AboutBoldFirstimage.jpg"
                 alt="Équipe principale"
