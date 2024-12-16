@@ -5,11 +5,13 @@
 
 
 body {
-  font-family: Titillium Web, 'Blanquotey', sans-serif;
+  font-family: Titillium Web, sans-serif;
+  font-family2:'Blanquotey', sans-serif;
   @apply bg-background text-white leading-loose;
 }
 @font-face {
-  font-family: Titillium Web, 'Blanquotey';
+  font-family: Titillium Web;
+  font-family2: 'Blanquotey';
   src: url('/fonts/Blanquotey.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;

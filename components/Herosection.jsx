@@ -4,10 +4,10 @@ import { Button } from "./ui/button";
 
 export default function HeroSection() {
     return (
-      <section className="w-full h-auto bg-red-900 text-white py-12 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
+      <section className="w-full h-[88vh] bg-red-900 text-white py-12 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
         {/* Texte principal */}
         <div className="flex flex-col items-center md:items-start max-w-md">
-          <h1 className="text-5xl md:text-6xl font-bold text-yellow-500 mb-6" style={{ fontFamily: 'sans-serif'}}>
+          <h1 className="text-5xl md:text-6xl font-bold text-yellow-500 mb-6 font-" >
             BOLD
           </h1>
           <p className="text-lg md:text-xl text-center md:text-left leading-relaxed">
@@ -23,7 +23,7 @@ export default function HeroSection() {
             <img
               src="/images/HeroSectionImage.jpg"
               alt="Hero Section"
-              className="w-full h-auto object-cover  mt-28"
+              className="w-full h-auto object-cover  mt-20 rounded-lg"
             />
           </div>
         </div>
