@@ -17,14 +17,12 @@ export default function Header() {
             priority 
           />
         </Link>
-        {/** Desktop nav */}
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
           <Link href="/don">
             <Button>Faire un don</Button>
           </Link>
         </div>
-        {/** Mobile nav */}
         <div className="xl:hidden">
           <MobileNav />
         </div>
