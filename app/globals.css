@@ -98,7 +98,6 @@ body {
   }
 }
 
-/* Classe d'animation personnalisée */
 .animate-scroll {
   animation: scroll 20s linear infinite;
 }

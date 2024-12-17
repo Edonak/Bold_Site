@@ -1,8 +1,8 @@
 export default function FormulaireContact() {
     return (
-      <section className="flex flex-col md:flex-row">
+      <section className="flex flex-col md:flex-row bg-white p-32 ">
         {/* Formulaire de contact */}
-        <div className="bg-yellow-700 text-white flex-1 p-8">
+        <div className="bg-yellow-700 text-white flex-1 p-8 h-[25hv]">
           <h3 className="text-lg font-bold mb-6">NOUS CONTACTER</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Champ Nom */}
@@ -39,7 +39,7 @@ export default function FormulaireContact() {
         </div>
   
         {/* Section Recevoir nos infos */}
-        <div className="bg-red-700 text-white flex-1 p-8">
+        <div className="bg-red-700 text-white flex-1 p-8 h-[25hv]">
           <h3 className="text-lg font-bold mb-6">Recevoir nos infos</h3>
           <p className="text-sm mb-4">
             En vous abonnant à nos pages, vous serez informé de toutes nos actions

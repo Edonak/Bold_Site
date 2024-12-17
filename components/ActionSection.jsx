@@ -6,31 +6,31 @@ export default function ActionsSection() {
         title: 'Impliqués',
         description:
           'Ce programme offre un espace d’expression libre autour des thématiques qui les préoccupent et qui appellent à une discussion.',
-        image: '/images/action-1.jpg',
+        image: '/images/impliqué.jpg',
       },
       {
         title: 'La parole audacieuse',
         description:
           'C’est un programme qui consiste à manifester le leadership des femmes à travers des actions concrètes.',
-        image: '/images/action-2.jpg',
+        image: '/images/paroleAudatieuse.jpg',
       },
       {
         title: 'Éducation adaptée',
         description:
           'Consiste en un programme de formation innové et adapté aux besoins des communautés selon leur contexte et évolution.',
-        image: '/images/action-3.jpg',
+        image: '/images/éducationAdaptée.jpg',
       },
       {
         title: 'Solutions pour le climat',
         description:
           'La prévention des catastrophes, la protection de l’environnement et les énergies propres.',
-        image: '/images/action-4.jpg',
+        image: '/images/SolutionClimat.jpg',
       },
       {
         title: 'Sisterhood Support System',
         description:
           'Soutien juridique, économique et psychologique pour les femmes dans leurs communautés.',
-        image: '/images/action-5.jpg',
+        image: '/images/blood.jpg',
       },
     ];
   
@@ -57,7 +57,7 @@ export default function ActionsSection() {
                 <p className="text-sm leading-relaxed">{action.description}</p>
                 <a
                   href="#"
-                  className="text-blue-600 font-semibold mt-4 inline-block group-hover:underline"
+                  className="text-blue-600 font-semibold mt-4 inline-block group-hover:underline ml-44"
                 >
                   Voir plus
                 </a>
