@@ -6,8 +6,8 @@ import MobileNav from "./MobileNav";
 
 export default function Header() {
   return (
-    <header className="py-4 xl:12 text-black bg-white">
-      <div className="container mx-auto flex justify-between items-center ">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white py-4 shadow-md">
+      <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
           <Image
             src="/images/logo.png" 
@@ -17,14 +17,14 @@ export default function Header() {
             priority 
           />
         </Link>
-        {/**Desktop nav */}
+        {/** Desktop nav */}
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
           <Link href="/don">
             <Button>Faire un don</Button>
           </Link>
         </div>
-        {/**Mobile nav */}
+        {/** Mobile nav */}
         <div className="xl:hidden">
           <MobileNav />
         </div>
