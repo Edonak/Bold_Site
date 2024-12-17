@@ -18,7 +18,8 @@ export default {
 		xl:'1200px',
 	},
 	fontFamily:{
-		primary: "var(--font-jetbrainsMono)",
+		titillium: ['"Titillium Web"', 'sans-serif'],
+        blanquotey: ['"Blanquotey"', 'sans-serif'],
 	},
   	extend: {
   		colors: {
@@ -37,4 +38,5 @@ export default {
   	}
   },
   plugins: [require("tailwindcss-animate")],
+  
 };

@@ -4,18 +4,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 
-body {
-  font-family: Titillium Web, sans-serif;
-  font-family2:'Blanquotey', sans-serif;
-  @apply bg-background text-white leading-loose;
-}
 @font-face {
-  font-family: Titillium Web;
-  font-family2: 'Blanquotey';
+  font-family: 'Titillium Web';
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blanquotey';
   src: url('/fonts/Blanquotey.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+
 
 @layer base {
   :root {
