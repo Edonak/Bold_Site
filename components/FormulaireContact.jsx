@@ -1,8 +1,10 @@
+import { Button } from "./ui/button";
+
 export default function FormulaireContact() {
     return (
       <section className="flex flex-col md:flex-row bg-white p-32 ">
         {/* Formulaire de contact */}
-        <div className="bg-yellow-700 text-white flex-1 p-8 h-[25hv]">
+        <div className="bg-yellow-700 text-white flex-1 p-16 h-[25hv]">
           <h3 className="text-lg font-bold mb-6">NOUS CONTACTER</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Champ Nom */}
@@ -31,10 +33,10 @@ export default function FormulaireContact() {
               contact@bold.com
             </a>
           </p>
-          <div className="flex space-x-4 mt-4">
-            <a href="#" className="text-2xl"><img src="/icons/twitter.svg" alt="Twitter" /></a>
-            <a href="#" className="text-2xl"><img src="/icons/facebook.svg" alt="Facebook" /></a>
-            <a href="#" className="text-2xl"><img src="/icons/instagram.svg" alt="Instagram" /></a>
+          <div className="flex mt-8">
+            <a href="#" className="text-2xl"><img src="/images/twitter.png" alt="Twitter" className="w-[20%]" /></a>
+            <a href="#" className="text-2xl"><img src="/images/facebook.png" alt="Facebook" className="w-[20%]" /></a>
+            <a href="#" className="text-2xl"><img src="/images/instagram.png" alt="Instagram" className="w-[20%]" /></a>
           </div>
         </div>
   
@@ -49,10 +51,11 @@ export default function FormulaireContact() {
             placeholder="Votre email"
             className="w-full px-4 py-2 text-black rounded mb-4"
           />
-          <div className="flex space-x-4 mt-4">
-            <a href="#" className="text-2xl"><img src="/icons/twitter.svg" alt="Twitter" /></a>
-            <a href="#" className="text-2xl"><img src="/icons/instagram.svg" alt="Instagram" /></a>
-            <a href="#" className="text-2xl"><img src="/icons/facebook.svg" alt="Facebook" /></a>
+          <Button className='bg-transparent text-white border-white'>S'abonner</Button>
+          <div className="flex mt-4">
+            <a href="#" className="text-2xl"><img src="/images/twitter.png" alt="Twitter" className="w-[20%]"/></a>
+            <a href="#" className="text-2xl"><img src="/images/instagram.png" alt="Instagram" className="w-[20%]" /></a>
+            <a href="#" className="text-2xl"><img src="/images/facebook.png" alt="Facebook" className="w-[20%]" /></a>
           </div>
         </div>
       </section>
