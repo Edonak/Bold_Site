@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 export default function FormulaireContact() {
     return (
-      <section className="flex flex-col md:flex-row bg-white p-32 ">
+      <section className="flex flex-col md:flex-row bg-slate-100 p-32 ">
         {/* Formulaire de contact */}
         <div className="bg-yellow-700 text-white flex-1 p-16 h-[25hv]">
           <h3 className="text-lg font-bold mb-6">NOUS CONTACTER</h3>
