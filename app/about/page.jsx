@@ -1,9 +1,14 @@
 import Footer from "@/components/Footer";
+import HeroSectionAbout from "./HeroSectioAbout";
+import AboutDetail from "./AboutDetail";
+import Programmes from "./Programmes";
 
 export default function About() {
   return (
     <>
-    <div>Page A propos</div>
+    <HeroSectionAbout />
+    <AboutDetail />
+    <Programmes />
     <Footer />
     </>
   )

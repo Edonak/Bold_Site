@@ -18,9 +18,9 @@ export default function AboutComponent() {
             />
           </div>
         </div>
-        <div className="text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Bienvenue à <span className="text-red-500">BOLD</span>
+        <div className="text-justify md:text-left ">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight ">
+            Bienvenue à <span className="text-[#8F1D07] font-blanquotey">BOLD</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mt-4">
             <strong>BOLD</strong> est une Association Sans But Lucratif

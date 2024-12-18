@@ -9,7 +9,7 @@ export default function HeroSection() {
     <section className="w-full h-[100vh] bg-red-900 text-white py-6 px-6 md:px-16 flex flex-col md:flex-row items-center justify-around">
       <div className="flex flex-col items-center md:items-start max-w-md w-[100%]">
         <h1
-          className="text-6xl md:text-6xl font-bold text-yellow-500 mb-6 font-blanquotey"
+          className="text-6xl md:text-6xl font-bold text-[#997D0E] mb-6 font-blanquotey"
         >
           bOLD
         </h1>
@@ -32,7 +32,6 @@ export default function HeroSection() {
           pagination={{ clickable: true }}
           className="h-[45vh] rounded-lg "
         >
-          {/** Ajoutez vos images ici */}
           <SwiperSlide>
             <Image
               src="/images/HeroSectionImage.jpg"

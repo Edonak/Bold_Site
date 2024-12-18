@@ -18,21 +18,19 @@
 }
 
 @import 'swiper/swiper-bundle.css';
-/* Cacher les flèches ou les rendre transparentes */
 .swiper-button-prev,
 .swiper-button-next {
-  color: transparent !important; /* Rendre les flèches invisibles */
-  background: none !important; /* Supprimer l'arrière-plan */
+  color: transparent !important; 
+  background: none !important;
   border: none;
   transition: all 0.3s ease;
 }
 
-/* Facultatif : Ajoutez un hover pour les rendre visibles */
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
-  color: white !important; /* Ajoutez une couleur au survol */
-  background: rgba(0, 0, 0, 0.3); /* Couleur de fond semi-transparente */
-  border-radius: 50%; /* Forme ronde */
+  color: white !important; 
+  background: rgba(0, 0, 0, 0.3); 
+  border-radius: 50%;
 }
 
 

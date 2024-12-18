@@ -1,9 +1,10 @@
 import Footer from "@/components/Footer"
+import HeroSectionAbout from "./HeroSectioAction"
 
 function Actions() {
   return (
     <>
-    <div>Nos actions page</div>
+    <HeroSectionAbout />
     <Footer />
     </>
   )

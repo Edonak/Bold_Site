@@ -1,73 +1,81 @@
-// app/components/ActionsSection.jsx
 
-export default function ActionsSection() {
-    const actions = [
-      {
-        title: 'Impliqués',
-        description:
-          'Ce programme offre un espace d’expression libre autour des thématiques qui les préoccupent et qui appellent à une discussion.',
-        image: '/images/impliqué.jpg',
-      },
-      {
-        title: 'La parole audacieuse',
-        description:
-          'C’est un programme qui consiste à manifester le leadership des femmes à travers des actions concrètes.',
-        image: '/images/paroleAudatieuse.jpg',
-      },
-      {
-        title: 'Éducation adaptée',
-        description:
-          'Consiste en un programme de formation innové et adapté aux besoins des communautés selon leur contexte et évolution.',
-        image: '/images/éducationAdaptée.jpg',
-      },
-      {
-        title: 'Solutions pour le climat',
-        description:
-          'La prévention des catastrophes, la protection de l’environnement et les énergies propres.',
-        image: '/images/SolutionClimat.jpg',
-      },
-      {
-        title: 'Sisterhood Support System',
-        description:
-          'Soutien juridique, économique et psychologique pour les femmes dans leurs communautés.',
-        image: '/images/blood.jpg',
-      },
-    ];
-  
+
+
+
+  export default function Actions() {
     return (
-      <section className="bg-yellow-900 text-white py-16 px-6 md:px-20">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+      <main className="bg-[#8C7829] text-white font-sans h-[auto]">
+        {/* Titre principal */}
+        <h2 className="text-center text-2xl md:text-3xl font-bold pt-12 pb-8">
           Que faisons-nous
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {actions.map((action, index) => (
-            <div
-              key={index}
-              className="bg-white text-black rounded-lg shadow-md overflow-hidden relative group"
-            >
-              {/* Image */}
-              <img
-                src={action.image}
-                alt={action.title}
-                className="w-full h-48 object-cover"
-              />
-              {/* Texte */}
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-4">{action.title}</h3>
-                <p className="text-sm leading-relaxed">{action.description}</p>
-                <a
-                  href="#"
-                  className="text-blue-600 font-semibold mt-4 inline-block group-hover:underline ml-44"
-                >
-                  Voir plus
-                </a>
-              </div>
-              {/* Overlay pour l'effet */}
-              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            </div>
-          ))}
+  
+        {/* Grille principale */}
+        <div className="container mx-auto px-4 grid grid-rows-4 grid-cols-6 gap-10 py-8">
+  
+          {/* Bloc 1 - En haut à gauche */}
+          <div className="relative group col-span-3 row-span-1">
+            <img
+              src="/images/impliqué.jpg"
+              alt="Impliquées"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <Overlay title="Impliquées" text="Ce programme offre un espace d'expression libre autour des thématiques qui les préoccupent et qui appellent à une discussion." />
+          </div>
+  
+          {/* Bloc 2 - En haut à droite */}
+          <div className="relative group col-span-3 row-span-1">
+            <img
+              src="/images/paroleAudatieuse.jpg"
+              alt="La parole audacieuse"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <Overlay title="La parole audacieuse" text="C'est un programme qui manifeste le leadership des femmes à travers des actions concrètes." />
+          </div>
+  
+          {/* Bloc 3 - Sur toute la largeur au milieu */}
+          <div className="relative group col-span-6 row-span-2">
+            <img
+              src="/images/éducationAdaptée.jpg"
+              alt="Éducation adaptée"
+              className="w-full h-[auto] object-cover rounded-lg"
+            />
+            <Overlay title="Éducation adaptée" text="Consiste en un programme de formation innové et adapté aux besoins des communautés selon leur contexte." />
+          </div>
+  
+          {/* Bloc 4 - En bas à gauche */}
+          <div className="relative group col-span-3 row-span-1">
+            <img
+              src="/images/SolutionClimat.jpg"
+              alt="Solutions pour le climat"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <Overlay title="Solutions pour le climat" text="La prévention des catastrophes, la protection de l'environnement et des écosystèmes." />
+          </div>
+  
+          {/* Bloc 5 - En bas à droite */}
+          <div className="relative group col-span-3 row-span-1">
+            <img
+              src="/images/blood.jpg"
+              alt="Sisterhood Support System"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <Overlay title="Sisterhood Support System" text="Encourager les femmes à travers un accompagnement juridique et psychologique." />
+          </div>
         </div>
-      </section>
+      </main>
+    );
+  }
+  
+  function Overlay({ title, text }) {
+    return (
+      <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 p-4 rounded-b-lg">
+        <h3 className="text-lg font-bold text-yellow-400">{title}</h3>
+        <p className="text-sm leading-snug">{text}</p>
+        <a href="#" className="text-red-400 text-sm mt-2 inline-block">
+          Voir plus
+        </a>
+      </div>
     );
   }
   
