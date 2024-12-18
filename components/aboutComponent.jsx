@@ -36,12 +36,6 @@ export default function AboutComponent() {
             Son siège social se situe à Goma, en République Démocratique du Congo.
           </p>
           <div className="flex justify-center mt-8">
-            {/* <a
-              href="#about"
-              className="px-8 py-4 bg-transparent text-[#8F1D07] border text-lg font-medium rounded-full shadow-md hover:bg-red-600 transition"
-            >
-              A propos
-            </a> */}
              <Button className='bg-transparent text-black border-[#8F1D07]'>A propos</Button>
           </div>
         </div>

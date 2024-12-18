@@ -13,7 +13,7 @@ export default function HeroSection() {
         >
           bOLD
         </h1>
-        <p className="text-lg md:text-xl text-center md:text-left leading-relaxed">
+        <p className="text-lg md:text-xl md:text-left leading-relaxed text-justify">
           Ensemble valorisons la voix des femmes et des filles et construisons
           leur un espace d'expression ouverte et positive.
         </p>
