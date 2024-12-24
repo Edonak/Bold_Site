@@ -7,7 +7,7 @@ export default function Actions() {
 
       <div className="container mx-auto px-4 grid grid-rows-4 grid-cols-6 gap-10 py-8">
         {/* Bloc 1 - En haut à gauche */}
-        <div className="relative group col-span-3 row-span-1 mt-32 w-[85%] h-[80vh]">
+        <div className="relative group col-span-3 row-span-1 mt-32">
           <img
             src="/images/impliqué.jpg"
             alt="Impliquées"
@@ -22,7 +22,7 @@ leurs pairs et dans leurs communautés et leurs pays."
         </div>
 
         {/* Bloc 2 - En haut à droite */}
-        <div className="relative group col-span-3 row-span-1 mb-32 w-[85%]">
+        <div className="relative group col-span-3 row-span-1 mb-32">
           <img
             src="/images/paroleAudatieuse.jpg"
             alt="La parole audacieuse"
@@ -35,7 +35,7 @@ leurs pairs et dans leurs communautés et leurs pays."
         </div>
 
         {/* Bloc 3 - Sur toute la largeur au milieu */}
-        <div className="relative group col-span-6 row-span-2 w-[85%] mx-16 h-[94vh]">
+        <div className="relative group col-span-6 row-span-2 my-32">
           <img
             src="/images/éducationAdaptée.jpg"
             alt="Éducation adaptée"
@@ -48,7 +48,7 @@ leurs pairs et dans leurs communautés et leurs pays."
         </div>
 
         {/* Bloc 4 - En bas à gauche */}
-        <div className="relative group col-span-3 row-span-1 w-[85%] mt-32">
+        <div className="relative group col-span-3 row-span-1 mb-32">
           <img
             src="/images/SolutionClimat.jpg"
             alt="Solutions pour le climat"
@@ -61,7 +61,7 @@ leurs pairs et dans leurs communautés et leurs pays."
         </div>
 
         {/* Bloc 5 - En bas à droite */}
-        <div className="relative group col-span-3 row-span-1 w-[85%] mb-32">
+        <div className="relative group col-span-3 row-span-1 mb-32">
           <img
             src="/images/blood.jpg"
             alt="Sisterhood Support System"
