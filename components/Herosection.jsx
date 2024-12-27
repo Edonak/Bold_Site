@@ -17,7 +17,7 @@ export default function HeroSection() {
           Ensemble valorisons la voix des femmes et des filles et construisons
           leur un espace d'expression ouverte et positive.
         </p>
-        <Button className="mt-8 px-6 py-3 bg-transparent border-white text-white hover:bg-yellow-500 hover:text-red-900 transition">
+        <Button className="mt-8 px-6 py-3 bg-transparent border-white text-white hover:bg-white hover:text-red-900 transition">
           Faire un don
         </Button>
       </div>
