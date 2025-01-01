@@ -31,19 +31,19 @@ export default function Testmonial() {
       <div className="flex justify-center space-x-12">
         <div>
           <h3 className="text-4xl font-bold text-red-600 mb-2">
-            <CountUp end={300} duration={20} />K
+            <CountUp end={30} duration={200} />K
           </h3>
           <p className="text-gray-700">Somme Récoltées en $</p>
         </div>
         <div>
           <h3 className="text-4xl font-bold text-yellow-500 mb-2">
-            <CountUp end={1} duration={20} />/3
+            <CountUp end={1} duration={200} />/3
           </h3>
           <p className="text-gray-700">Des femmes est victime de violences sexuelles</p>
         </div>
         <div>
           <h3 className="text-4xl font-bold text-green-600 mb-2">
-            <CountUp end={50} duration={20} />
+            <CountUp end={50} duration={200} />
           </h3>
           <p className="text-gray-700">Partenaires qui nous accompagnent</p>
         </div>
