@@ -18,10 +18,9 @@ export default function Actions() {
             text="C’est un programme qui consiste à manifester le leadership des femmes
 à travers des actions concrètes pouvant améliorer la condition de vie de
 leurs pairs et dans leurs communautés et leurs pays."
-          className='text-center'/>
+            className="text-center"
+          />
         </div>
-
-        {/* Bloc 2 - En haut à droite */}
         <div className="relative group col-span-3 row-span-1 mb-32">
           <img
             src="/images/paroleAudatieuse.jpg"
@@ -33,8 +32,6 @@ leurs pairs et dans leurs communautés et leurs pays."
             text="C'est un programme qui manifeste le leadership des femmes à travers des actions concrètes."
           />
         </div>
-
-        {/* Bloc 3 - Sur toute la largeur au milieu */}
         <div className="relative group col-span-6 row-span-2 my-32">
           <img
             src="/images/éducationAdaptée.jpg"
@@ -46,8 +43,6 @@ leurs pairs et dans leurs communautés et leurs pays."
             text="Consiste en un programme de formation innové et adapté aux besoins des communautés selon leur contexte."
           />
         </div>
-
-        {/* Bloc 4 - En bas à gauche */}
         <div className="relative group col-span-3 row-span-1 mb-32">
           <img
             src="/images/SolutionClimat.jpg"
@@ -59,8 +54,6 @@ leurs pairs et dans leurs communautés et leurs pays."
             text="La prévention des catastrophes, la protection de l'environnement et des écosystèmes."
           />
         </div>
-
-        {/* Bloc 5 - En bas à droite */}
         <div className="relative group col-span-3 row-span-1 mb-32">
           <img
             src="/images/blood.jpg"

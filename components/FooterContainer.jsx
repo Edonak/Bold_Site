@@ -1,9 +1,7 @@
 export default function FooterContainer() {
   return (
     <footer className="bg-[#0E4D55] text-white py-8">
-      {/* Conteneur principal */}
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center md:items-start">
-        {/* Section Logo et Adresse */}
         <div className="flex flex-col items-center md:items-start mb-6 md:mb-0">
           <img
             src="/images/logo.png"
@@ -18,8 +16,6 @@ export default function FooterContainer() {
             République Démocratique Du Congo
           </p>
         </div>
-
-        {/* Section Menu */}
         <div className="text-center md:text-left mb-6 md:mb-0">
           <h3 className="text-lg font-bold mb-4">Menu</h3>
           <ul className="space-y-2">
@@ -45,8 +41,6 @@ export default function FooterContainer() {
             </li>
           </ul>
         </div>
-
-        {/* Section Réseaux sociaux */}
         <div className="flex justify-center md:justify-start gap-4 flex-wrap">
           <a
             href="https://twitter.com"
@@ -60,7 +54,11 @@ export default function FooterContainer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/images/facebook.png" alt="Facebook" className="w-6 h-6" />
+            <img
+              src="/images/facebook.png"
+              alt="Facebook"
+              className="w-6 h-6"
+            />
           </a>
           <a
             href="https://instagram.com"
@@ -78,7 +76,11 @@ export default function FooterContainer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/images/linkedin.png" alt="LinkedIn" className="w-6 h-6" />
+            <img
+              src="/images/linkedin.png"
+              alt="LinkedIn"
+              className="w-6 h-6"
+            />
           </a>
           <a
             href="https://youtube.com"
@@ -89,8 +91,6 @@ export default function FooterContainer() {
           </a>
         </div>
       </div>
-
-      {/* Section Copyright */}
       <div className="border-t border-gray-500 mt-6 pt-4 text-center text-sm px-4 md:w-[70%] md:mx-auto">
         Copyright ©2024. Tout droit réservé BOLD
       </div>

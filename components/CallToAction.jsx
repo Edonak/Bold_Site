@@ -17,7 +17,6 @@ export default function CallToAction() {
             </Button>
           </div>
         </div>
-        {/* Image */}
         <div className="hidden md:block absolute md:relative md:ml-8">
           <img
             src="/images/CallToAction.svg"
